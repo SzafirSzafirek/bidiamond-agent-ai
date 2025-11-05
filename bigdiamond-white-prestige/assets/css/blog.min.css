@@ -1,0 +1,44 @@
+/* BigDIAMOND White Prestige – BLOG */
+/* Listings / Search */
+.bdwp-blog,.bdwp-blog-archive,.bdwp-search{max-width:var(--bdwp-max-width);margin:0 auto var(--bdwp-spacing-xl);display:grid;gap:var(--bdwp-spacing-lg);}
+.bdwp-blog__header,.bdwp-blog-archive__header,.bdwp-search__header{text-align:center;display:grid;gap:var(--bdwp-spacing-sm);}
+.bdwp-blog__grid{display:grid;gap:var(--bdwp-spacing-lg);grid-template-columns:repeat(2,minmax(0,1fr));}
+.bdwp-post-card{background:var(--bdwp-color-surface);border-radius:var(--bdwp-radius-medium);overflow:hidden;box-shadow:0 28px 50px rgba(15,14,11,.08);display:grid;grid-template-rows:auto 1fr;}
+.bdwp-post-card__thumb{position:relative;overflow:hidden;}
+.bdwp-post-card__thumb img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease;}
+.bdwp-post-card__thumb:hover img,.bdwp-post-card__thumb:focus-visible img{transform:scale(1.05);}
+.bdwp-post-card__content{padding:var(--bdwp-spacing-md) var(--bdwp-spacing-lg);display:grid;gap:var(--bdwp-spacing-sm);}
+.bdwp-post-card__meta{display:flex;gap:1rem;font-size:.85rem;color:var(--bdwp-color-text-muted);letter-spacing:.08em;text-transform:uppercase;}
+.bdwp-post-card__title{font-family:var(--bdwp-font-serif);font-size:clamp(1.6rem,3vw,2rem);margin:0;}
+.bdwp-post-card__title a{color:inherit;text-decoration:none;}
+.bdwp-post-card__excerpt{color:var(--bdwp-color-text-muted);}
+.bdwp-post-card__link{display:inline-flex;align-items:center;gap:.35rem;font-weight:500;}
+.bdwp-post-card__icon svg{width:18px;height:18px;}
+.bdwp-pagination{display:flex;justify-content:center;gap:.5rem;font-weight:500;}
+
+/* Article */
+.bdwp-article{max-width:min(860px,90vw);margin:0 auto var(--bdwp-spacing-xl);display:grid;gap:var(--bdwp-spacing-lg);}
+.bdwp-article__header{display:grid;gap:var(--bdwp-spacing-sm);}
+.bdwp-article__title{font-family:var(--bdwp-font-serif);font-size:clamp(2.3rem,4vw,3.2rem);}
+.bdwp-article__meta{display:flex;gap:1rem;font-size:.9rem;color:var(--bdwp-color-text-muted);}
+.bdwp-article__featured img{border-radius:var(--bdwp-radius-medium);width:100%;height:auto;}
+.bdwp-article__toc{background:var(--bdwp-color-surface);border-radius:var(--bdwp-radius-medium);padding:var(--bdwp-spacing-md) var(--bdwp-spacing-lg);box-shadow:0 22px 44px rgba(18,16,14,.06);}
+.bdwp-article__toc ol{margin:var(--bdwp-spacing-sm) 0 0;padding-left:1.2rem;display:grid;gap:.35rem;}
+.bdwp-article__content{display:grid;gap:var(--bdwp-spacing-md);color:var(--bdwp-color-text);}
+.bdwp-article__content img{border-radius:var(--bdwp-radius-medium);width:100%;height:auto;}
+.bdwp-article__footer{display:grid;gap:var(--bdwp-spacing-sm);}
+.bdwp-article__share ul{display:flex;gap:1.25rem;padding:0;margin:0;list-style:none;}
+.bdwp-related{display:grid;gap:var(--bdwp-spacing-md);}
+
+/* Responsy */
+@media (max-width:980px) {
+
+
+  .bdwp-blog__grid{grid-template-columns:1fr;}
+  .bdwp-post-card{grid-template-columns:1fr;}
+  .bdwp-article__meta{flex-direction:column;gap:.5rem;}
+
+
+}
+
+

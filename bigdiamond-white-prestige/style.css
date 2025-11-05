@@ -1,0 +1,17 @@
+/*
+Theme Name: BigDIAMOND White Prestige
+Theme URI: https://syntacticsinc.com/
+Author: Senior WordPress/WooCommerce Engineer
+Author URI: https://syntacticsinc.com/
+Description: Child theme for GeneratePress recreating the BigDIAMOND White Prestige experience with refined UX, accessibility, and WooCommerce support.
+Version: 1.1.0
+Template: generatepress
+Text Domain: bigdiamond-white-prestige
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*
+ * This file intentionally left minimal. All styles are enqueued via assets/css/white-prestige.css.
+ */
+
