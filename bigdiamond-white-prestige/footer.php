@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         </div><!-- #content -->
 
         <footer class="site-footer" role="contentinfo" aria-label="<?php esc_attr_e( 'Stopka strony BigDIAMOND White Prestige', 'bigdiamond-white-prestige' ); ?>">
-                <div class="container footer-grid">
+                <div class="footer-grid">
                         <div class="footer-column footer-column--brand">
                                 <?php
                                 if ( function_exists( 'bigdiamond_white_prestige_header_brand' ) ) {
